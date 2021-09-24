@@ -1,0 +1,35 @@
+{
+  "assets": [],
+  "build": {
+    "build_id": "D50D410A-1",
+    "build_number": 1,
+    "build_time": 1632478760537,
+    "release": false
+  },
+  "encryptLevel": 3,
+  "useFeatures": [],
+  "icon": "res/icon.png",
+  "launchConfig": {
+    "displaySplash": true,
+    "hideLogs": true,
+    "splashIcon": "res/splashIcon.png",
+    "splashText": "Powered by UDU",
+    "stableMode": true
+  },
+  "main": "main.js",
+  "name": "自动健康上报",
+  "optimization": {
+    "removeAccessibilityService": false,
+    "removeOpenCv": false,
+    "unusedResources": false
+  },
+  "packageName": "com.aotorobot.health",
+  "permissionConfig": {
+    "requestListOnStartup": [
+      "android.permission.WRITE_EXTERNAL_STORAGE"
+    ]
+  },
+  "scripts": {},
+  "versionCode": 1,
+  "versionName": "2.0.0"
+}
